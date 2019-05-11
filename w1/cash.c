@@ -39,15 +39,15 @@ int main(void){
     printf("%i nickles needed in coins\n", nickles);
     totalcoins = totalcoins - (0.05 * nickles);
     counter = counter + nickles;
-    printf("%f new balance after dollars, quarters, dimes taken out \n", totalcoins);
-    printf("%i new counter total \n", counter);
+//    printf("%f new balance after dollars, quarters, dimes taken out \n", totalcoins);
+//    printf("%i new counter total \n", counter);
     
     //PENNIES
-    int pennies = floorf(totalcoins/0.01);
+    int pennies = ceilf(totalcoins/0.01);
     printf("%i pennies needed in coins\n", pennies);
     totalcoins = totalcoins - (0.01 * pennies);
     counter = counter + pennies;
-    printf("%f new balance after all is taken out \n", totalcoins);
-    printf("%i new counter total \n", counter);
+//    printf("%f new balance after all is taken out \n", totalcoins);
+//    printf("%i new counter total \n", counter);
     
 }
