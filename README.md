@@ -8,3 +8,9 @@
 - [CS50 Links](https://cs50.harvard.edu/college/2019/fall/weeks/)
 - [OSSU Trello](https://trello.com/b/S4rxUL09/ossu-computer-science-curriculum-v8)
 - [OSSU Github](https://github.com/ossu/computer-science)
+
+## To-do
+- [x] wk 0
+- [x] wk 1
+- [x] wk 2
+- [ ] wk 3
